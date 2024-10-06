@@ -9,7 +9,7 @@ COPY . /app
 
 # Install the application dependencies
 RUN npm init
-RUN npm install express
+RUN npm install -g express
 
 
 # Expose the port that the application will run on
