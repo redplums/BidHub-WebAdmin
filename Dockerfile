@@ -8,8 +8,9 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies
-RUN npm install
 RUN npm init
+RUN npm install express
+
 
 # Expose the port that the application will run on
 EXPOSE 3000
